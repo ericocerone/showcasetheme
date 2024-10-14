@@ -1,0 +1,6 @@
+# Ignorar a pasta de imagens
+/img/
+
+# Ignorar a pasta Bootstrap
+/dep/
+
