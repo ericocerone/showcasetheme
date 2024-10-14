@@ -1,0 +1,22 @@
+/*
+Theme Name: cv6
+Version: 1.0
+Author: Erico
+*/
+.wpforms-container.wpf-center {
+margin: 0 auto !important;
+/* Adjust the width in the next 2 lines as your site needs */
+max-width: 500px !important;
+width: 500px !important;
+}
+ 
+/* Readjust the form width for smaller devices */
+@media only screen and (max-width: 600px) {
+ 
+.wpforms-container.wpf-center {
+/* Reset the width for devices under 600px */
+max-width: unset !important;
+width: auto !important;
+}
+ 
+}
